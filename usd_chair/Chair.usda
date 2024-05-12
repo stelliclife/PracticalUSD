@@ -1,0 +1,250 @@
+#usda 1.0
+(
+    upAxis = "Y"
+)
+
+def Xform "Chair"
+{
+    def Xform "XformCrestRail"
+    {
+        def Xform "CrestRail0"
+        {
+            float3 xformOp:scale = (34, 4, 4)
+            double3 xformOp:translate = (0, 100, -50)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+            def Cube "CrestRail"
+            {
+            }
+        }
+    }
+
+    def Xform "XformSplat"
+    {
+        def Xform "Splat0"
+        {
+            float3 xformOp:scale = (2, 37, 2)
+            double3 xformOp:translate = (6.1, 60, -50)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+            def Cube "Splat"
+            {
+            }
+        }
+
+        over "Splat1" (
+            prepend references = </Chair/XformSplat/Splat0>
+        )
+        {
+            double3 xformOp:translate = (6.1, 60, -50)
+        }
+
+        over "Splat2" (
+            prepend references = </Chair/XformSplat/Splat0>
+        )
+        {
+            double3 xformOp:translate = (-6.1, 60, -50)
+        }
+
+        over "Splat3" (
+            prepend references = </Chair/XformSplat/Splat0>
+        )
+        {
+            double3 xformOp:translate = (20.1, 60, -50)
+        }
+
+        over "Splat4" (
+            prepend references = </Chair/XformSplat/Splat0>
+        )
+        {
+            double3 xformOp:translate = (-20.1, 60, -50)
+        }
+    }
+
+    def Xform "XformLowerBackRail"
+    {
+        def Xform "LowerBackRail0"
+        {
+            float3 xformOp:scale = (34, 4, 4)
+            double3 xformOp:translate = (0, 26, -50)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+            def Cube "LowerBackRail"
+            {
+            }
+        }
+    }
+
+    def Xform "XformSeatRail"
+    {
+        def Xform "SeatRail0"
+        {
+            float3 xformOp:scale = (36, 4, 4)
+            double3 xformOp:translate = (0, -14, -50)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+            def Cube "SeatRail"
+            {
+            }
+        }
+
+        over "SeatRail1" (
+            prepend references = </Chair/XformSeatRail/SeatRail0>
+        )
+        {
+            double3 xformOp:translate = (0, -14, -50)
+        }
+
+        over "SeatRail2" (
+            prepend references = </Chair/XformSeatRail/SeatRail0>
+        )
+        {
+            double3 xformOp:translate = (0, -14, 30)
+        }
+
+        over "SeatRail3" (
+            prepend references = </Chair/XformSeatRail/SeatRail0>
+        )
+        {
+            float3 xformOp:rotateXYZ = (0, 90, 0)
+            double3 xformOp:translate = (38, -14, -10)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+        }
+
+        over "SeatRail4" (
+            prepend references = </Chair/XformSeatRail/SeatRail0>
+        )
+        {
+            float3 xformOp:rotateXYZ = (0, 90, 0)
+            double3 xformOp:translate = (-38, -14, -10)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+        }
+    }
+
+    def Xform "XformCrossStretcher"
+    {
+        def Xform "CrossStretcher0"
+        {
+            float3 xformOp:scale = (40, 2, 2)
+            double3 xformOp:translate = (0, -40, -35)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+            def Cube "CrossStretcher"
+            {
+            }
+        }
+
+        over "CrossStretcher1" (
+            prepend references = </Chair/XformCrossStretcher/CrossStretcher0>
+        )
+        {
+            double3 xformOp:translate = (0, -40, -35)
+        }
+
+        over "CrossStretcher2" (
+            prepend references = </Chair/XformCrossStretcher/CrossStretcher0>
+        )
+        {
+            double3 xformOp:translate = (0, -40, -20)
+        }
+    }
+
+    def Xform "XformFrontLeg"
+    {
+        def Xform "FrontLeg0"
+        {
+            float3 xformOp:scale = (4, 47, 4)
+            double3 xformOp:translate = (38, -57, 30)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+            def Cube "FrontLeg"
+            {
+            }
+        }
+
+        over "FrontLeg1" (
+            prepend references = </Chair/XformFrontLeg/FrontLeg0>
+        )
+        {
+            double3 xformOp:translate = (38, -57, 30)
+        }
+
+        over "FrontLeg2" (
+            prepend references = </Chair/XformFrontLeg/FrontLeg0>
+        )
+        {
+            double3 xformOp:translate = (-38, -57, 30)
+        }
+    }
+
+    def Xform "XformSideStretcher"
+    {
+        def Xform "SideStretcher0"
+        {
+            float3 xformOp:scale = (2, 2, 42)
+            double3 xformOp:translate = (-38, -40, -10)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+            def Cube "SideStretcher"
+            {
+            }
+        }
+
+        over "SideStretcher1" (
+            prepend references = </Chair/XformSideStretcher/SideStretcher0>
+        )
+        {
+            double3 xformOp:translate = (-38, -40, -10)
+        }
+
+        over "SideStretcher2" (
+            prepend references = </Chair/XformSideStretcher/SideStretcher0>
+        )
+        {
+            double3 xformOp:translate = (38, -40, -10)
+        }
+    }
+
+    def Xform "XformStile"
+    {
+        def Xform "Stile0"
+        {
+            float3 xformOp:scale = (4, 104, 4)
+            double3 xformOp:translate = (38, 0, -50)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+            def Cube "Stile"
+            {
+            }
+        }
+
+        over "Stile1" (
+            prepend references = </Chair/XformStile/Stile0>
+        )
+        {
+            double3 xformOp:translate = (38, 0, -50)
+        }
+
+        over "Stile2" (
+            prepend references = </Chair/XformStile/Stile0>
+        )
+        {
+            double3 xformOp:translate = (-38, 0, -50)
+        }
+    }
+
+    def Xform "XformSeat"
+    {
+        def Xform "Seat0"
+        {
+            float3 xformOp:scale = (42, 4, 46)
+            double3 xformOp:translate = (0, -6, -8)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+            def Cube "Seat"
+            {
+            }
+        }
+    }
+}
+
