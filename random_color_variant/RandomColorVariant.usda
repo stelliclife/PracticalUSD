@@ -1,0 +1,2155 @@
+#usda 1.0
+(
+    upAxis = "Y"
+)
+
+over "Planet0" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "green"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (30, 0, 0)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet1" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "yellow"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (29.544232590366242, 0, 5.2094453300079095)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet2" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "red"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (28.190778623577252, 0, 10.260604299770062)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet3" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "indigo"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (25.98076211353316, 0, 14.999999999999998)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet4" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "purple"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (22.98133329356934, 0, 19.283628290596177)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet5" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "yellow"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (19.28362829059618, 0, 22.98133329356934)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet6" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "indigo"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (15.000000000000004, 0, 25.980762113533157)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet7" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "blue"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (10.260604299770065, 0, 28.19077862357725)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet8" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "orange"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (5.209445330007912, 0, 29.544232590366242)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet9" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "orange"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (1.83697019872103e-15, 0, 30)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet10" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "orange"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (-5.2094453300079095, 0, 29.544232590366242)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet11" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "purple"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (-10.260604299770062, 0, 28.190778623577252)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet12" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "green"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (-14.999999999999993, 0, 25.98076211353316)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet13" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "purple"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (-19.28362829059618, 0, 22.98133329356934)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet14" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "purple"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (-22.981333293569335, 0, 19.283628290596184)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet15" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "blue"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (-25.98076211353316, 0, 14.999999999999998)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet16" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "indigo"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (-28.19077862357725, 0, 10.260604299770065)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet17" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "purple"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (-29.544232590366242, 0, 5.209445330007909)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet18" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "orange"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (-30, 0, 3.67394039744206e-15)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet19" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "blue"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (-29.544232590366242, 0, -5.209445330007914)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet20" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "blue"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (-28.190778623577252, 0, -10.26060429977006)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet21" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "indigo"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (-25.980762113533157, 0, -15.000000000000004)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet22" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "green"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (-22.98133329356934, 0, -19.283628290596177)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet23" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "purple"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (-19.283628290596184, 0, -22.981333293569335)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet24" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "indigo"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (-15.000000000000014, 0, -25.980762113533153)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet25" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "blue"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (-10.260604299770057, 0, -28.190778623577252)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet26" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "orange"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (-5.2094453300079095, 0, -29.544232590366242)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet27" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "green"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (-5.510910596163089e-15, 0, -30)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet28" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "green"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (5.209445330007899, 0, -29.544232590366242)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet29" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "orange"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (10.260604299770069, 0, -28.19077862357725)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet30" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "orange"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (15.000000000000004, 0, -25.980762113533157)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet31" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "blue"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (19.283628290596177, 0, -22.981333293569342)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet32" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "green"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (22.981333293569335, 0, -19.283628290596187)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet33" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "orange"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (25.980762113533153, 0, -15.000000000000014)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet34" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "green"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (28.190778623577252, 0, -10.260604299770058)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet35" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "orange"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (29.544232590366242, 0, -5.209445330007911)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet36" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "green"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (30, 0, -7.34788079488412e-15)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet37" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "yellow"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (29.544232590366242, 0, 5.209445330007897)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet38" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "purple"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (28.19077862357725, 0, 10.260604299770067)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet39" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "yellow"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (25.980762113533157, 0, 15)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet40" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "red"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (22.981333293569342, 0, 19.283628290596177)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet41" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "orange"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (19.283628290596187, 0, 22.981333293569335)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet42" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "indigo"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (14.999999999999991, 0, 25.980762113533164)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet43" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "yellow"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (10.26060429977006, 0, 28.190778623577252)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet44" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "blue"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (5.209445330007913, 0, 29.544232590366242)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet45" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "indigo"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (9.184850993605149e-15, 0, 30)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet46" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "indigo"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (-5.209445330007895, 0, 29.544232590366242)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet47" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "purple"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (-10.26060429977004, 0, 28.19077862357726)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet48" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "indigo"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (-14.999999999999977, 0, 25.980762113533174)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
+over "Planet49" (
+    prepend references = @./SimpleSphere.usda@
+    variants = {
+        string rainbow = "red"
+    }
+    prepend variantSets = "rainbow"
+)
+{
+    color3f primvars:displayColor
+    double3 xformOp:translate = (-19.283628290596194, 0, 22.981333293569328)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    variantSet "rainbow" = {
+        "blue" {
+            color3f primvars:displayColor = (0, 0, 255)
+
+        }
+        "green" {
+            color3f primvars:displayColor = (0, 255, 0)
+
+        }
+        "indigo" {
+            color3f primvars:displayColor = (0, 5, 255)
+
+        }
+        "orange" {
+            color3f primvars:displayColor = (255, 50, 0)
+
+        }
+        "purple" {
+            color3f primvars:displayColor = (100, 0, 255)
+
+        }
+        "red" {
+            color3f primvars:displayColor = (255, 0, 0)
+
+        }
+        "yellow" {
+            color3f primvars:displayColor = (255, 255, 0)
+
+        }
+    }
+}
+
