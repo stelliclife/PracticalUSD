@@ -13,6 +13,7 @@ def init_stage(path):
     Return: an instance of Usd.Stage
     """
     stage = Usd.Stage.CreateNew(path)
+    UsdGeom.SetStageUpAxis(stage, UsdGeom.Tokens.y)
 
     return stage
 
