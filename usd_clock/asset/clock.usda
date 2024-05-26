@@ -1,0 +1,211 @@
+#usda 1.0
+(
+    defaultPrim = "GrpClock"
+    upAxis = "Y"
+)
+
+def Xform "GrpClock"
+{
+    def Xform "GrpClockFace"
+    {
+        def Cylinder "ClockFace"
+        {
+            float3 xformOp:scale = (5, 5, 0.2)
+            double3 xformOp:translate = (0, 0, 0)
+            float3 xformOp:translate:pivot = (0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:translate:pivot", "xformOp:scale", "!invert!xformOp:translate:pivot"]
+        }
+    }
+
+    def Xform "GrpHourHand"
+    {
+        def Cube "HourHand"
+        {
+            float3 xformOp:scale = (0.1, 1.5, 0.05)
+            double3 xformOp:translate = (0, 0, 0.65)
+            float3 xformOp:translate:pivot = (0, -1.8, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:translate:pivot", "xformOp:scale", "!invert!xformOp:translate:pivot"]
+        }
+    }
+
+    def Xform "GrpMinuteHand"
+    {
+        def Cube "MinuteHand"
+        {
+            float3 xformOp:scale = (0.1, 2.1, 0.05)
+            double3 xformOp:translate = (0, 0, 0.53)
+            float3 xformOp:translate:pivot = (0, -1.3, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:translate:pivot", "xformOp:scale", "!invert!xformOp:translate:pivot"]
+        }
+    }
+
+    def Xform "GrpSecondHand"
+    {
+        def Cube "SecondHand"
+        {
+            float3 xformOp:scale = (0.1, 2.3, 0.03)
+            double3 xformOp:translate = (0, 0, 0.4)
+            float3 xformOp:translate:pivot = (0, -1.3, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:translate:pivot", "xformOp:scale", "!invert!xformOp:translate:pivot"]
+        }
+    }
+
+    def Xform "GrpCapNut"
+    {
+        def Cylinder "CapNut"
+        {
+            float3 xformOp:scale = (0.1, 0.1, 0.5)
+            double3 xformOp:translate = (0, 0, 0)
+            float3 xformOp:translate:pivot = (0, 0, 0.8)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:translate:pivot", "xformOp:scale", "!invert!xformOp:translate:pivot"]
+        }
+    }
+
+    def Xform "GrpNumbers"
+    {
+        def Xform "GrpHour1"
+        {
+            float3 xformOp:scale = (0.1, 0.1, 0.2)
+            double3 xformOp:translate = (3.708175663890716, 2.177023942387553, 0)
+            float3 xformOp:translate:pivot = (0, 0, 0.3)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:translate:pivot", "xformOp:scale", "!invert!xformOp:translate:pivot"]
+
+            def Cylinder "Hour1"
+            {
+            }
+        }
+
+        def Xform "GrpHour2"
+        {
+            float3 xformOp:scale = (0.1, 0.1, 0.2)
+            double3 xformOp:translate = (2.095612443847142, 3.7547847455204417, 0)
+            float3 xformOp:translate:pivot = (0, 0, 0.3)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:translate:pivot", "xformOp:scale", "!invert!xformOp:translate:pivot"]
+
+            def Cylinder "Hour2"
+            {
+            }
+        }
+
+        def Xform "GrpHour3"
+        {
+            float3 xformOp:scale = (0.1, 0.1, 0.2)
+            double3 xformOp:translate = (-0.09380400564861244, 4.298976716443609, 0)
+            float3 xformOp:translate:pivot = (0, 0, 0.3)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:translate:pivot", "xformOp:scale", "!invert!xformOp:translate:pivot"]
+
+            def Cylinder "Hour3"
+            {
+            }
+        }
+
+        def Xform "GrpHour4"
+        {
+            float3 xformOp:scale = (0.1, 0.1, 0.2)
+            double3 xformOp:translate = (-2.257399295438608, 3.6598016914790987, 0)
+            float3 xformOp:translate:pivot = (0, 0, 0.3)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:translate:pivot", "xformOp:scale", "!invert!xformOp:translate:pivot"]
+
+            def Cylinder "Hour4"
+            {
+            }
+        }
+
+        def Xform "GrpHour5"
+        {
+            float3 xformOp:scale = (0.1, 0.1, 0.2)
+            double3 xformOp:translate = (-3.799606752969758, 2.013203547281449, 0)
+            float3 xformOp:translate:pivot = (0, 0, 0.3)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:translate:pivot", "xformOp:scale", "!invert!xformOp:translate:pivot"]
+
+            def Cylinder "Hour5"
+            {
+            }
+        }
+
+        def Xform "GrpHour6"
+        {
+            float3 xformOp:scale = (0.1, 0.1, 0.2)
+            double3 xformOp:translate = (-4.295907352801988, -0.18756336567094406, 0)
+            float3 xformOp:translate:pivot = (0, 0, 0.3)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:translate:pivot", "xformOp:scale", "!invert!xformOp:translate:pivot"]
+
+            def Cylinder "Hour6"
+            {
+            }
+        }
+
+        def Xform "GrpHour7"
+        {
+            float3 xformOp:scale = (0.1, 0.1, 0.2)
+            double3 xformOp:translate = (-3.6096858516765318, -2.33670024868537, 0)
+            float3 xformOp:translate:pivot = (0, 0, 0.3)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:translate:pivot", "xformOp:scale", "!invert!xformOp:translate:pivot"]
+
+            def Cylinder "Hour7"
+            {
+            }
+        }
+
+        def Xform "GrpHour8"
+        {
+            float3 xformOp:scale = (0.1, 0.1, 0.2)
+            double3 xformOp:translate = (-1.9298364748619883, -3.842620353390672, 0)
+            float3 xformOp:translate:pivot = (0, 0, 0.3)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:translate:pivot", "xformOp:scale", "!invert!xformOp:translate:pivot"]
+
+            def Cylinder "Hour8"
+            {
+            }
+        }
+
+        def Xform "GrpHour9"
+        {
+            float3 xformOp:scale = (0.1, 0.1, 0.2)
+            double3 xformOp:translate = (0.281233455689616, -4.290793369925995, 0)
+            float3 xformOp:translate:pivot = (0, 0, 0.3)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:translate:pivot", "xformOp:scale", "!invert!xformOp:translate:pivot"]
+
+            def Cylinder "Hour9"
+            {
+            }
+        }
+
+        def Xform "GrpHour10"
+        {
+            float3 xformOp:scale = (0.1, 0.1, 0.2)
+            double3 xformOp:translate = (2.414889059169018, -3.5578519969084956, 0)
+            float3 xformOp:translate:pivot = (0, 0, 0.3)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:translate:pivot", "xformOp:scale", "!invert!xformOp:translate:pivot"]
+
+            def Cylinder "Hour10"
+            {
+            }
+        }
+
+        def Xform "GrpHour11"
+        {
+            float3 xformOp:scale = (0.1, 0.1, 0.2)
+            double3 xformOp:translate = (3.883805074638991, -1.845550904800087, 0)
+            float3 xformOp:translate:pivot = (0, 0, 0.3)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:translate:pivot", "xformOp:scale", "!invert!xformOp:translate:pivot"]
+
+            def Cylinder "Hour11"
+            {
+            }
+        }
+
+        def Xform "GrpHour12"
+        {
+            float3 xformOp:scale = (0.1, 0.1, 0.2)
+            double3 xformOp:translate = (4.283637201794505, 0.37476969381492864, 0)
+            float3 xformOp:translate:pivot = (0, 0, 0.3)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:translate:pivot", "xformOp:scale", "!invert!xformOp:translate:pivot"]
+
+            def Cylinder "Hour12"
+            {
+            }
+        }
+    }
+}
+
